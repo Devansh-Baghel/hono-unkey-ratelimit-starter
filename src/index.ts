@@ -1,7 +1,6 @@
 import { Hono } from "hono";
 import { env } from "hono/adapter";
 import { Ratelimit } from "@unkey/ratelimit";
-import { getConnInfo } from "hono/cloudflare-workers";
 
 const app = new Hono();
 
